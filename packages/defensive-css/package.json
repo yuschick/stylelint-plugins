@@ -6,7 +6,7 @@
   "license": "MIT",
   "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
   "scripts": {
-    "test": "node ./__tests__/defensive-css.test.js"
+    "test": "vitest"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -17,5 +17,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yuschick/stylelint-plugins.git"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0"
   }
 }

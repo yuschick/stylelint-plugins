@@ -9,7 +9,7 @@ export default defineConfig([
    * Global ignores
    * -------------------------------------------------- */
   {
-    ignores: ["eslint.config.mts"],
+    ignores: ["eslint.config.mts", "vitest.config.ts", "vitest.setup.ts", "**/dist/**", "**/node_modules/**"],
   },
 
   /* --------------------------------------------------

@@ -6,10 +6,12 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "test": "lerna run test"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
+    "@types/node": "^25.1.0",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
@@ -17,7 +19,13 @@
     "jiti": "^2.6.1",
     "lerna": "^9.0.3",
     "prettier": "^3.8.1",
+    "stylelint": "^16.1.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.54.0"
+    "typescript-eslint": "^8.54.0",
+    "vitest": "^3.2.4",
+    "vitest-stylelint-utils": "^2.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0"
   }
 }
