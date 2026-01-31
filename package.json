@@ -1,0 +1,15 @@
+{
+  "name": "stylelint-plugins",
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^9.0.3",
+    "typescript": "^5.9.3"
+  }
+}
