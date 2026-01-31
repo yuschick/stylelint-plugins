@@ -1,7 +1,12 @@
 export const overflowProperties = [
-  "overflow",
-  "overflow-x",
-  "overflow-y",
-  "overflow-inline",
-  "overflow-block",
+  'overflow-inline',
+  'overflow',
+  'overflow-x',
+  'overflow-block',
+  'overflow-y',
 ];
+
+export const test = {
+  apple: 'first',
+  zebra: 'last',
+};

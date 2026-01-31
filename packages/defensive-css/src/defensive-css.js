@@ -1,7 +1,3 @@
-'use strict';
-
-module.exports = defensiveCss;
-
-function defensiveCss() {
+export function defensiveCss() {
   return 'Hello from defensiveCss';
 }
